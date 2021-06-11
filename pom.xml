@@ -22,16 +22,18 @@
  *
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <parent>
-      <groupId>com.celements</groupId>
-      <artifactId>celements</artifactId>
-      <version>5.2-SNAPSHOT</version>
+    <groupId>com.celements</groupId>
+    <artifactId>celements</artifactId>
+    <version>5.2-SNAPSHOT</version>
   </parent>
-  <modelVersion>4.0.0</modelVersion>  
+  <modelVersion>4.0.0</modelVersion>
   <artifactId>celements-contact</artifactId>
   <version>5.1-SNAPSHOT</version>
-  <description>Celements Core</description> 
+  <description>Celements Core</description>
   <dependencies>    
     <!-- Add here all your dependencies -->
     <dependency>
@@ -51,12 +53,11 @@
       <artifactId>celements-core</artifactId>
       <version>5.1-SNAPSHOT</version>
       <scope>provided</scope>
-    </dependency>          
-  </dependencies>  
+    </dependency>
+  </dependencies>
   <scm>
     <connection>scm:git:git@github.com:celements/celements-contact.git</connection>
     <developerConnection>scm:git:git@github.com:celements/celements-contact.git</developerConnection>
     <url>https://github.com/celements/celements-contact</url>
-    <tag>HEAD</tag>
   </scm>
 </project>
